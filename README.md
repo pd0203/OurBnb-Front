@@ -27,8 +27,8 @@
 
 ## Repository
 
-- [Frontend](https://github.com/zzangzzong92/fullstack3-2nd-OurBnb-frontend)
-- [Backend](https://github.com/zzangzzong92/fullstack3-2nd-OurBnb-backend)
+- [Frontend](https://github.com/pd0203/ourBnb-frontend)
+- [Backend](https://github.com/pd0203/ourBnb-backend)
 
 ## Member
 
