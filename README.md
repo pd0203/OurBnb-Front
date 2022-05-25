@@ -1,4 +1,4 @@
-## Our bnb
+## Ourbnb
 
 ## 배포 URL 
 - http://43.200.7.14:3001/
