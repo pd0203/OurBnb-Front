@@ -1,6 +1,6 @@
 import { React, useEffect, useState } from 'react';
 import { GET_LOGIN_API } from '../../config';
-import { useNavigate } from 'react-router';
+import { useNavigate } from 'react-router-dom';
 import qs from 'qs';
 
 const Login = () => {
