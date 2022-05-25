@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+## Our bnb
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+- 기간 : 22.01.14 ~ 22.02.11(연휴제외)
+- 구성 : Front-end 3명, Back-end 2명
 
-In the project directory, you can run:
+## Skills
 
-### `npm start`
+- front-end
+  <img src="https://img.shields.io/badge/Javascript-yellow?style=for-the-badge&logo=Javascript&logoColor=white">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white">
+  <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/styled-components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- back-end
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white">
+  <img src="https://img.shields.io/badge/Nodemon-76D04B?style=for-the-badge&logo=Nodemon&logoColor=white">
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=Prisma&logoColor=white">
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=Express&logoColor=white">
+  <img src="https://img.shields.io/badge/Mysql-4479A1?style=for-the-badge&logo=Mysql&logoColor=white">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Repository
 
-### `npm test`
+- [Frontend](https://github.com/zzangzzong92/fullstack3-2nd-OurBnb-frontend)
+- [Backend](https://github.com/zzangzzong92/fullstack3-2nd-OurBnb-backend)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Member
 
-### `npm run build`
+- Frontend
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  - 최은비
+  - 장종현
+  - 민하늘
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Backend
+  - 박효상
+  - 구민기
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Task
 
-### `npm run eject`
+front-end
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- 장종현
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  - 디테일 페이지 전체구현
+    - React-datePicker 라이브러리를 사용하여 캘린더 구현
+    - 선택된 예약날짜를 데이터베이스로 보내 db에 저장
+    - 숙박 장소 modal창 구현
+    - styled-component를 사용하여 페이지 구성
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- 최은비
+- 민하늘
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Modeling
 
-## Learn More
+![스크린샷 2022-02-08 오전 1 13 34](https://user-images.githubusercontent.com/70682567/152827078-4d136f7d-5e38-48b1-90b4-95824b682d28.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Convention
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Branch
 
-### Code Splitting
+- Feature/<기능 or 페이지> : 새로 만들 때 사용
+- Fix/<고치는 것> : 수정, 개선할 때 사용
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Commit
 
-### Analyzing the Bundle Size
+- Add : 기능 추가할 때
+- Fix : 기능 수정, 개선할 때
+- Del : 기능 삭제할 때
+- Merge : 파일 머지할 때
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+File
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 페이지 폴더 및 파일명 : Pascal Case
+- 컴포넌트 파일명 : Pascal Case
+- 클래스명 : camel Case
